@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #19A1AE;
+    font-family: 'Kumbh Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 55vw bottom 30vh, left 52vw top 44vh;
+
+}
+
+.main-container {
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    border-radius: 15px;
+    width: 350px;
+    height: 374px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cover {
+    background: #41CBD3;
+    border-radius: 15px 15px 0px 0px;
+    max-height: 100%;
+    
+}
+
+.profile {
+    /* background: url(Image.png); */
+    /* border: 5px solid #FFFFFF; */
+    border-radius: 50%;
+    margin-top: -48px;
+}
+
+.name {
+    height: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2E3349;
+}
+
+.age {
+    height: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #6B7082;
+    margin-top: 0px;
+    letter-spacing: 0px;
+}
+
+.info {
+    display: flex;
+    text-align: center;
+    gap: 8.5px;
+    margin-top: 19px;
+}
+
+.sity {
+    height: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #6B7082;
+    margin-top: 13px;
+    letter-spacing: 0px;
+}
+
+.stats {
+    height: 117px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 28px;
+    border-top: 1px solid hsla(228, 9%, 92%, 1);
+}
+
+p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1.5px;
+    height: 10px;
+    color: #6B7082;
+    margin-top: 9px;
+    
+}
+
+h3 {
+    font-weight: 700;
+    height: 18px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2E3349;
+    margin-top: 21px;
+    }
+
+.followers, .likes, .photos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
